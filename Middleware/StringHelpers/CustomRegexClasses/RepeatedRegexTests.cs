@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
+using WeirdUnitBE.GameLogic;
 
 namespace Tests
 {
@@ -11,7 +13,15 @@ namespace Tests
         [TestMethod()]
         public void GetExpressionTest()
         {
-            Assert.Fail();
+            RepeatedRegex repeatedExpression = new RepeatedRegex();
+
+            Regex repeatedRegex = new Regex("a"+repeatedExpression.GetExpression());  
+
+            string repeatedString = "aaaaa";  
+
+            MatchCollection matchedLetters = repeatedRegex.Matches(repeatedString);
+
+            Assert.AreEqual(matchedLetters.Count, 2);
         }
     }
 }
