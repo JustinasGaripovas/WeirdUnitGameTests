@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj": {}
+    "C:\\Users\\Justin\\source\\repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitBE\\WeirdUnitGame.csproj": {
+    "C:\\Users\\Justin\\source\\repos\\WeirdUnitBE\\WeirdUnitGame.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitBE\\WeirdUnitGame.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\source\\repos\\WeirdUnitBE\\WeirdUnitGame.csproj",
         "projectName": "WeirdUnitGame",
-        "projectPath": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitBE\\WeirdUnitGame.csproj",
+        "projectPath": "C:\\Users\\Justin\\source\\repos\\WeirdUnitBE\\WeirdUnitGame.csproj",
         "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitBE\\obj\\",
+        "outputPath": "C:\\Users\\Justin\\source\\repos\\WeirdUnitBE\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -87,14 +87,14 @@
         }
       }
     },
-    "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj": {
+    "C:\\Users\\Justin\\source\\repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj",
+        "projectUniqueName": "C:\\Users\\Justin\\source\\repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj",
         "projectName": "WeirdUnitGameTests",
-        "projectPath": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj",
+        "projectPath": "C:\\Users\\Justin\\source\\repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj",
         "packagesPath": "C:\\Users\\Justin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitGameTests\\obj\\",
+        "outputPath": "C:\\Users\\Justin\\source\\repos\\WeirdUnitGameTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -115,8 +115,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitBE\\WeirdUnitGame.csproj": {
-                "projectPath": "C:\\Users\\Justin\\Source\\Repos\\WeirdUnitBE\\WeirdUnitGame.csproj"
+              "C:\\Users\\Justin\\source\\repos\\WeirdUnitBE\\WeirdUnitGame.csproj": {
+                "projectPath": "C:\\Users\\Justin\\source\\repos\\WeirdUnitBE\\WeirdUnitGame.csproj"
               }
             }
           }
@@ -141,7 +141,7 @@
             },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[16.5.0, )"
+              "version": "[16.8.0, )"
             },
             "coverlet.collector": {
               "target": "Package",
