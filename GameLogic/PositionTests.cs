@@ -17,7 +17,6 @@ namespace WeirdUnitBE.GameLogic.Tests
 
             double calculatedDistance = fromPosition.DistanceToPosition(toPosition);
 
-
             Assert.AreEqual(calculatedDistance, 5);
         }
     }
