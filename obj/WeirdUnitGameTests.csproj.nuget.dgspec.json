@@ -63,6 +63,10 @@
             "Nunit3TestAdapter": {
               "target": "Package",
               "version": "[3.17.0, )"
+            },
+            "moq": {
+              "target": "Package",
+              "version": "[4.15.2, )"
             }
           },
           "imports": [

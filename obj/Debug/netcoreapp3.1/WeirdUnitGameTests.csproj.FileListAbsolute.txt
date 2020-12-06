@@ -108,3 +108,5 @@ C:\Users\Justin\source\repos\WeirdUnitGameTests\obj\Debug\netcoreapp3.1\WeirdUni
 C:\Users\Justin\source\repos\WeirdUnitGameTests\obj\Debug\netcoreapp3.1\WeirdUnitGameTests.dll
 C:\Users\Justin\source\repos\WeirdUnitGameTests\obj\Debug\netcoreapp3.1\WeirdUnitGameTests.pdb
 C:\Users\Justin\source\repos\WeirdUnitGameTests\obj\Debug\netcoreapp3.1\WeirdUnitGameTests.genruntimeconfig.cache
+C:\Users\Justin\source\repos\WeirdUnitGameTests\bin\Debug\netcoreapp3.1\Castle.Core.dll
+C:\Users\Justin\source\repos\WeirdUnitGameTests\bin\Debug\netcoreapp3.1\Moq.dll
