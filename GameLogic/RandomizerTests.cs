@@ -20,6 +20,7 @@ namespace WeirdUnitBE.GameLogic.Tests
             int randomNumber = randomizer.ReturnRandomInteger(1, 100, seed);
 
             Assert.AreEqual(expectedInt, randomNumber);
+
         }
     }
 }

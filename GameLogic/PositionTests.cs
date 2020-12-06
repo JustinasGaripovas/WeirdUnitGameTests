@@ -12,7 +12,13 @@ namespace WeirdUnitBE.GameLogic.Tests
         [TestMethod()]
         public void DistanceToPositionTest()
         {
-            Assert.Fail();
+            Position fromPosition = new Position(0,0);
+            Position toPosition = new Position(0,5);
+
+            double calculatedDistance = fromPosition.DistanceToPosition(toPosition);
+
+
+            Assert.AreEqual(calculatedDistance, 5);
         }
     }
 }
