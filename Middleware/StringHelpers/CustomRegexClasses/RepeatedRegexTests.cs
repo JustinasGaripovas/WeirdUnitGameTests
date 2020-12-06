@@ -11,6 +11,8 @@ namespace Tests
         [TestMethod()]
         public void GetExpressionTest()
         {
+            UpperCaseRegex upperCase = new UpperCaseRegex();
+
             Assert.Fail();
         }
     }
