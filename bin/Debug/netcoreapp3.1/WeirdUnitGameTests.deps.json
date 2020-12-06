@@ -11,6 +11,7 @@
           "MSTest.TestAdapter": "2.1.0",
           "MSTest.TestFramework": "2.1.0",
           "Microsoft.NET.Test.Sdk": "16.8.0",
+          "ReportGenerator": "4.8.1",
           "WeirdUnitGame": "1.0.0",
           "coverlet.collector": "1.2.0"
         },
@@ -424,6 +425,7 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "ReportGenerator/4.8.1": {},
       "runtime.native.System/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "1.1.0",
@@ -1032,6 +1034,13 @@
       "sha512": "sha512-I9MNvK+GM2yXrHPitwZkAZKU9sYI2OO/8wKC+VuBD7V3z+ySQ1pSopX/urr0ooedI8/TIcajYPRO4vGRr7AM8A==",
       "path": "nunit3testadapter/3.17.0",
       "hashPath": "nunit3testadapter.3.17.0.nupkg.sha512"
+    },
+    "ReportGenerator/4.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BzJ19Zi3UCbQMFse00Q0ShOl4mEIoZeZ75aVmd5AAL8AD34gPl5s3HovveU9dZq38oQPNsxxQ32yBs4paJW7Gg==",
+      "path": "reportgenerator/4.8.1",
+      "hashPath": "reportgenerator.4.8.1.nupkg.sha512"
     },
     "runtime.native.System/4.3.0": {
       "type": "package",
