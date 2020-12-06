@@ -13,7 +13,6 @@ namespace Tests
         [TestMethod()]
         public void GetExpressionTest()
         {
-<<<<<<< HEAD
             RepeatedRegex repeatedExpression = new RepeatedRegex();
 
             Regex repeatedRegex = new Regex("a"+repeatedExpression.GetExpression());  
@@ -23,11 +22,6 @@ namespace Tests
             MatchCollection matchedLetters = repeatedRegex.Matches(repeatedString);
 
             Assert.AreEqual(matchedLetters.Count, 2);
-=======
-            UpperCaseRegex upperCase = new UpperCaseRegex();
-
-            Assert.Fail();
->>>>>>> 7c3dcacf40749b89dfc777e1ac64f91c18cd0932
         }
     }
 }
