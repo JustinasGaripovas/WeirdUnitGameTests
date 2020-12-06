@@ -2,6 +2,8 @@
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Text.RegularExpressions;
+using WeirdUnitBE.GameLogic;
 
 namespace Tests
 {
@@ -11,7 +13,15 @@ namespace Tests
         [TestMethod()]
         public void GetExpressionTest()
         {
-            Assert.Fail();
+            LowerCaseRegex lowerCaseExpression = new LowerCaseRegex();
+
+            Regex lowerCaseRegex = new Regex(lowerCaseExpression.GetExpression());  
+
+            string bigString = "Big";  
+
+            MatchCollection matchedLowerCaseLetters = lowerCaseRegex.Matches(bigString);
+
+            Assert.AreEqual(matchedLowerCaseLetters.Count, 2);
         }
     }
 }
