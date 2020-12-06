@@ -10,9 +10,16 @@ namespace WeirdUnitBE.GameLogic.Tests
     public class RandomizerTests
     {
         [TestMethod()]
-        public void ReturnRandomIntegerTest()
+        [DataRow(155552, 3)]
+        [DataRow(16484135, 14)]
+        [DataRow(468, 22)]
+        public void ReturnRandomIntegerTest(int seed, int expectedInt)
         {
-            Assert.Fail();
+            Randomizer randomizer = new Randomizer();
+
+            int randomNumber = randomizer.ReturnRandomInteger(1, 100, seed);
+
+            Assert.AreEqual(expectedInt, randomNumber);
         }
     }
 }
