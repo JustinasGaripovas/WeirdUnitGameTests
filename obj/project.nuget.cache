@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "gcnztffXub5jnA341Iarm9A8SQMe5htw/qYNE2hycplXDHEZ3VECmW/nfjcfGLPZ3KLjMh9dyfPe3DU0jjd06A==",
+  "dgSpecHash": "qDQ6orv6sT2ZR3uNFcq+hKfbLvbk4waRsFMHtpNsx0jZnwhlEpG5+56hicMNGWd8DoXvvJrAXihqngztaSkJAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Justin\\source\\repos\\WeirdUnitGameTests\\WeirdUnitGameTests.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "C:\\Users\\Justin\\.nuget\\packages\\nuget.frameworks\\5.0.0\\nuget.frameworks.5.0.0.nupkg.sha512",
     "C:\\Microsoft\\Xamarin\\NuGet\\nunit\\3.12.0\\nunit.3.12.0.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\nunit3testadapter\\3.17.0\\nunit3testadapter.3.17.0.nupkg.sha512",
+    "C:\\Users\\Justin\\.nuget\\packages\\reportgenerator\\4.8.1\\reportgenerator.4.8.1.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\runtime.native.system\\4.3.0\\runtime.native.system.4.3.0.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\system.appcontext\\4.1.0\\system.appcontext.4.1.0.nupkg.sha512",
     "C:\\Users\\Justin\\.nuget\\packages\\system.collections\\4.3.0\\system.collections.4.3.0.nupkg.sha512",
