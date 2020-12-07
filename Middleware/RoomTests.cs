@@ -3,6 +3,7 @@ using WeirdUnitBE.Middleware;
 using System;
 using System.Collections.Generic;
 using System.Text;
+using System.Net.WebSockets;
 
 namespace WeirdUnitBE.Middleware.Tests
 {
@@ -10,15 +11,9 @@ namespace WeirdUnitBE.Middleware.Tests
     public class RoomTests
     {
         [TestMethod()]
-        public void RoomTest()
-        {
-            Assert.Fail();
-        }
-
-        [TestMethod()]
         public void GenerateRoomUUIDTest()
         {
-            Assert.Fail();
+            Assert.IsTrue(Room.GenerateRoomUUID().Length > 0);
         }
     }
 }
